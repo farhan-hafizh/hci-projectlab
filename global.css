@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+.active {
+    color: aqua;
+    background-color: black;
+    opacity: 50%;
+}
+
+.img-middle-horizontal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal-divider {
+    border-left: solid white;
+    height: 100px;
+    margin: 0 1rem;
+}

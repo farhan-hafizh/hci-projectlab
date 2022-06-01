@@ -1,51 +1,10 @@
-body{
-    margin: 0;
-}
-nav{
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    float: left;
-}
-nav ul li a{
-    display: block;
-    padding: 1.2rem;
+
+.prev, .next{
+    background-color: cadetblue;
+    border: none;
     color: white;
-    text-decoration: none;
-}
-nav ul li a:hover{
-    color: aqua;
-    background-color: black;
-    opacity: 50%;
-}
-.img-middle-horizontal{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.parallax{
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.horizontal-divider{
-    border-left: solid white;
-    height: 100px;
-    margin: 0 1rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
 }
 
 .bg-1{
@@ -57,7 +16,25 @@ nav ul li a:hover{
 }
 .bg-2 {
     background-image: url('/assets/teams.png');
-    height: 30rem !important;
+    height: 40rem !important;
+}
+@media screen and (max-width: 700px) {
+    .bg-2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bg-2 .title{
+        margin-bottom: 2rem;
+    }
+    .bg-2 .company-detail {
+        font-size: 10px;
+        width: 100%;
+        margin: 0 2rem;
+    }
+    .horizontal-divider{
+        display: none !important;
+    }
 }
 .bg-2 .title{
     background-color: whitesmoke;
@@ -67,7 +44,7 @@ nav ul li a:hover{
 }
 .bg-2 .company-detail{
     font-size: 20px;
-    padding: 0 1rem;
+    padding: 1rem;
     width: 30rem;
     background-color: white;
 }
@@ -110,7 +87,7 @@ nav ul li a:hover{
 }
 .slider-container{
     height: fit-content;
-    background-color: #FAC213;
+    background-color: yellowgreen;
     padding: 2rem;
 }
 .slider-container h3{
@@ -126,12 +103,12 @@ nav ul li a:hover{
     margin: 0 auto;
     display: none;
 }
-.slider-container .slider .content .product-title{
+.product-title{
     margin: 1rem 0;
     text-align: center;
     font-size: large;
 }
-.slider-container .slider .content .product-desc {
+.product-desc {
     margin: 0 auto;
     text-align: center;
     width: 55%;
@@ -143,8 +120,13 @@ nav ul li a:hover{
 .slider-container .slider .content img {
     max-width: 20rem;
 }
+.button-container-mid{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
 .most-selling{
-    background-color: yellowgreen;
+    background-color: cadetblue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,5 +148,7 @@ nav ul li a:hover{
 }
 footer{
     background-color: #3A3845;
-    height: 20rem;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
 }
