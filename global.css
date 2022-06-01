@@ -56,3 +56,32 @@ nav ul li a:hover,
     height: 100px;
     margin: 0 1rem;
 }
+.max-height{
+    height: 100vh;
+}
+.max-width{
+    width: 100vw;
+}
+.rounded{
+    border-radius: 50%;
+}
+.btn{
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+.btn:hover{
+    background-color: grey;
+}
+.fade-in{
+    animation: fade 1s ;
+}
+
+@keyframes fade {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

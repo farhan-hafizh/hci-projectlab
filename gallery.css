@@ -1,0 +1,36 @@
+
+.btn-container{
+    /* position: absolute; */
+}
+
+.btn-slide{
+    position: absolute;
+    font-size: 80px;
+    font-weight: bold;
+    top:45%;
+    border-radius: 20%;
+}
+.next{
+    right: 0;
+}
+.bg-1{
+    background-image: url('/assets/fishing.png');
+    display: none;
+}
+.bg-2{
+    background-image: url('/assets/lifejacket.png');
+    display: none;
+    background-repeat: no-repeat;
+}
+.bg-3{
+    background-image: url('/assets/lure1.png');
+    background-repeat: no-repeat;
+    display: none;
+    background-position: center;
+}
+.bg-4{
+    background-image: url('/assets/most-selling.png');
+    background-repeat: no-repeat;
+    display: none;
+    background-position: right;
+}
