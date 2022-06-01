@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+}
+nav{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    float: left;
+}
+nav ul li a{
+    display: block;
+    padding: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: aqua;
+    background-color: black;
+    opacity: 50%;
+}
+.img-middle-horizontal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.parallax{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.horizontal-divider{
+    border-left: solid white;
+    height: 100px;
+    margin: 0 1rem;
+}
+
+.bg-1{
+    background-image: url('/assets/fishing.png');
+}
+.bg-3{
+    background-image: url('/assets/tunaschool.png');
+    height: 25rem !important;
+}
+.bg-2 {
+    background-image: url('/assets/teams.png');
+    height: 30rem !important;
+}
+.bg-2 .title{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 25px;
+}
+.bg-2 .company-detail{
+    font-size: 20px;
+    padding: 0 1rem;
+    width: 30rem;
+    background-color: white;
+}
+.bg-3 .title{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 25px;
+}
+.bg-1 .home-title-top{
+    opacity: 100%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1rem;
+}
+.home-title-top .child{
+    color: white;
+    width: fit-content;
+    font-size: 50px;
+    text-align: right;
+    background-color: cadetblue;
+    padding: 0 0.5rem;
+}
+.home-title-bottom {
+    padding-left: 0.5rem;
+    background-color: yellowgreen;
+}
+.home-title-bottom .child{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    width: 300px;
+}
+.main-content{
+    width: 100vw;
+    height: fit-content;
+}
+.main-content img{
+    width: 100%;
+}
+.slider-container{
+    height: fit-content;
+    background-color: #FAC213;
+    padding: 2rem;
+}
+.slider-container h3{
+    margin: 0;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+.slider-container .slider{
+}
+.slider-container .slider .content {
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+}
+.slider-container .slider .content .product-title{
+    margin: 1rem 0;
+    text-align: center;
+    font-size: large;
+}
+.slider-container .slider .content .product-desc {
+    margin: 0 auto;
+    text-align: center;
+    width: 55%;
+}
+.slider-container .slider .content {
+    width: 80%;
+    margin: 0 auto;
+}
+.slider-container .slider .content img {
+    max-width: 20rem;
+}
+.most-selling{
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.most-selling .title{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: cadetblue;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 1rem;
+    padding: 0.2rem 1rem;
+}
+.most-selling-content img{
+    max-width: 20rem;
+}
+footer{
+    background-color: #3A3845;
+    height: 20rem;
+}
