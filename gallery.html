@@ -21,20 +21,22 @@
     <div class="main-content">
         <div class="slideshow-container">
             <div class="slides-content">
-                <div class="btn-container">
+                <div>
                     <button class="btn rounded btn-slide prev" onclick="prev()">&#8249;</button>
                     <button class="btn rounded btn-slide next" onclick="next()">&#8250;</button>
+                </div>
+                <div class="thumbnail-parent fade-in">
+                    <div class="thumbnail-container">
+                        <div class="thumbnail th-1" onclick="showContent(0)"></div>
+                        <div class="thumbnail th-2" onclick="showContent(1)"></div>
+                        <div class="thumbnail th-3" onclick="showContent(2)"></div>
+                        <div class="thumbnail th-4" onclick="showContent(3)"></div>
+                    </div>
                 </div>
                 <div class="max-height max-width content bg-1"></div>
                 <div class="max-height max-width content bg-2"></div>
                 <div class="max-height max-width content bg-3"></div>
                 <div class="max-height max-width content bg-4"></div>
-            </div>
-            <div class="thumnail-container">
-                <div class="thumbnail th-1"></div>
-                <div class="thumbnail th-2"></div>
-                <div class="thumbnail th-3"></div>
-                <div class="thumbnail th-4"></div>
             </div>
         </div>
     </div>
