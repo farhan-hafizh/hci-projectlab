@@ -19,27 +19,38 @@
         </ul>
     </nav>
     <div class="parallax main-container">
+        <div>
+            <p>logo</p>
+            <h2>Get In Touch</h2>
+        </div>
         <div class="form-container">
-            <form action="# " name="contactUs" onsubmit="return onSubmitContact()">
-                <div>
-                    Name: <input type="text" name="name">
+            <form action="mailto:farhan.hafizh@binus.ac.id" name="contactUs" onsubmit="return onSubmitContact()">
+                <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name">
                 </div>
-                <div>
-                    Email: <input type="text" name="email">
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email">
                 </div>
-                <div>
-                    Gender: <select name="gender" id="gender">
+                <div class="input-group">
+                    <label for="gender">Gender:</label>
+                    <select name="gender" id="gender">
                         <option value="m">Male</option>
                         <option value="f">Female</option>
                     </select>
                 </div>
-                <div>
-                    Contact Reason: <input type="text" name="reason">
+                <div class="input-group">
+                    <label for="reason">Contact Reason</label>
+                    <input type="text" name="reason">
                 </div>
-                <div>
-                    Message: <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <div class="input-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
                 </div>
-                <input type="submit" value="Submit">
+                <div class="btn-container">
+                    <input class="btn btn-submit" type="submit" value="Submit">
+                </div>
             </form>
         </div>
     </div>

@@ -1,18 +1,17 @@
 var currentIndex=0
 showContent(0);
 
-function next(){
+$('.next').click(()=>{
     showContent(currentIndex+1)
-}
-
-function prev(){
+});
+$('.prev').click(()=>{
     showContent(currentIndex-1)
-}
+});
 
 function showContent(index){
-    var contents = document.getElementsByClassName("content");
-    var thumbnails = document.getElementsByClassName("thumbnail");
-    contents[currentIndex].style.display="none";
+    var contents = $(".content");
+    var thumbnails = $(".thumbnail");
+    contents.eq(currentIndex).hide();
     contents[currentIndex].classList.remove("fade-in");
     
     if(index<0) index=contents.length-1;
@@ -20,11 +19,8 @@ function showContent(index){
 
     if(thumbnails[index]){
         thumbnails[currentIndex].classList.remove("thumb-active");
-        // thumbnails[currentIndex].style.opacity="50%";
-        // thumbnails[index].style.opacity="100%";
         thumbnails[index].classList.add("thumb-active");
     }
     currentIndex=index;
-    contents[currentIndex].style.display="block";
-   
+    contents.eq(currentIndex).show();
 }
