@@ -76,7 +76,10 @@ nav ul li a:hover,
 .fade-in{
     animation: fade 1s ;
 }
-
+.horizontal-center{
+    left: 50%;
+    transform: translateX(-50%);
+}
 @keyframes fade {
     from{
         opacity: 0;
