@@ -58,20 +58,21 @@
 .bg-1 .home-title-top{
     opacity: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     margin-bottom: 1rem;
 }
 .home-title-top .child{
     color: white;
     width: fit-content;
-    font-size: 50px;
+    width: 8rem;    
     text-align: right;
-    background-color: rgb(29, 211, 218);
     padding: 0 0.5rem;
+    animation: slideDown 0.5s ease-in;
 }
+
 .home-title-bottom {
     padding-left: 0.5rem;
-    background-color: yellowgreen;
+    background-color: #23a6d5;
 }
 .home-title-bottom .child{
     color: white;
@@ -88,7 +89,7 @@
 }
 .slider-container{
     height: fit-content;
-    background-color: #23d5ab;
+    background-color: #3ca98fd2;
     padding: 2rem;
 }
 .slider-container h3{

@@ -46,3 +46,10 @@ h2{
         background-position: 0% 50%;
     }
 }
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 8rem;
+}
