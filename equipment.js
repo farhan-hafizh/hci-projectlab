@@ -2,11 +2,11 @@ let parentClass;
 init($('.category'));
 
 $('.next').click(function (){
-    parentClass = $(this).parent();
+    parentClass = $(this).parent().parent();
     onClickButton(parentClass, 'next');
 });
 $('.prev').click(function (){
-    parentClass = $(this).parent();
+    parentClass = $(this).parent().parent();
     onClickButton(parentClass, 'prev');
 });
 
