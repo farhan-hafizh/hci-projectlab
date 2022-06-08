@@ -65,7 +65,7 @@
     color: white;
     width: fit-content;
     width: 8rem;    
-    text-align: right;
+    text-align: center;
     padding: 0 0.5rem;
     animation: slideDown 0.5s ease-in;
 }
@@ -77,7 +77,7 @@
 .home-title-bottom .child{
     color: white;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     width: 300px;
 }
 .main-content{
