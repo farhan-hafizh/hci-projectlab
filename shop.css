@@ -1,5 +1,9 @@
+body, html{
+    height: 100%;
+}
 .main-container{
-    background-color: brown;
+    background-color: rgb(38, 183, 183);
+    height: 200vh;
 }
 .content{
     display: none;
@@ -25,4 +29,10 @@
     font-size: 20px;
     text-align: center;
     border-bottom: solid 1px;
+}
+.card{
+    height: 450px;
+}
+.item-image{
+    height: 2000px;
 }
